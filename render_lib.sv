@@ -16,7 +16,7 @@ module render_bars (
             else if ((px < 360) & (px > 240)) begin
                 pixel_on = 1'b1;
                 color = 12'hF9C;
-            end 
+            end
             else begin
                 pixel_on = 1'b0;
                 color = 12'hBDF;
